@@ -35,7 +35,7 @@ The automatic calculation of parameters process the window containing the desire
 \* Some gait parameters are only available for 2 legs configurations, as the calculation of said metrics require time intervals between events of both legs.
 
 
-### Code snippet (include + for 2 legs configuration)
+### Code example (include + for 2 legs configuration)
 ```
 leg1 = rtga.LegInfo("name", Fs)
 + leg2 = rtga.LegInfo("name", Fs)
